@@ -10,3 +10,14 @@ def wallis(k):
 
 
 print(wallis(10))
+
+
+def euklides(a, b):
+    while b != 0:
+        c = a % b
+        a = b
+        b = c
+    return a
+
+
+print(euklides(84, 18))
