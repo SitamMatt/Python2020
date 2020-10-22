@@ -1,4 +1,5 @@
 from euklides import euklides
+from sieveOfEratosthenes import sieveOfEratosthenes
 
 
 def wallis(k):
@@ -15,3 +16,5 @@ def wallis(k):
 print(wallis(10))
 
 print(euklides(84, 18))
+
+sieveOfEratosthenes(2, 100)
