@@ -1,3 +1,6 @@
+from euklides import euklides
+
+
 def wallis(k):
     result = 1
     for n in range(1, k + 1):
@@ -10,14 +13,5 @@ def wallis(k):
 
 
 print(wallis(10))
-
-
-def euklides(a, b):
-    while b != 0:
-        c = a % b
-        a = b
-        b = c
-    return a
-
 
 print(euklides(84, 18))
