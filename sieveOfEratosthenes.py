@@ -19,4 +19,3 @@ def sieveOfEratosthenes(start, end):
     print(res)
 
 
-sieveOfEratosthenes(2, 100)
