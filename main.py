@@ -1,3 +1,7 @@
+from euklides import euklides
+from sieveOfEratosthenes import sieveOfEratosthenes
+
+
 def wallis(k):
     result = 1
     for n in range(1, k + 1):
@@ -10,3 +14,7 @@ def wallis(k):
 
 
 print(wallis(10))
+
+print(euklides(84, 18))
+
+print(sieveOfEratosthenes(2, 100))
