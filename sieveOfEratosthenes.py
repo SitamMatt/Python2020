@@ -16,7 +16,7 @@ def sieveOfEratosthenes(start, end):
             if (i % ind == 0) & (i != ind):
                 res.remove(i)
         ind += 1
-    print(res)
+    return res
 
 
 

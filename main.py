@@ -17,4 +17,4 @@ print(wallis(10))
 
 print(euklides(84, 18))
 
-sieveOfEratosthenes(2, 100)
+print(sieveOfEratosthenes(2, 100))
