@@ -39,6 +39,3 @@ def lcm(a, b):
         result *= factor ** factor_exponent
 
     return result
-
-
-print(lcm(192, 348))

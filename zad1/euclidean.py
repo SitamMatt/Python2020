@@ -1,4 +1,4 @@
-def euklides(a, b):
+def gcd(a, b):
     while b != 0:
         c = a % b
         a = b

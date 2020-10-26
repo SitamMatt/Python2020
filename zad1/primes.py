@@ -3,7 +3,7 @@
 from math import sqrt
 
 
-def sieveOfEratosthenes(start, end):
+def sieve_of_eratosthenes(start, end):
     res = []
     it = start
     while it <= end:
